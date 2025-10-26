@@ -1,0 +1,21 @@
+# Node.js dependencies
+/node_modules
+/frontend/node_modules
+/backend/node_modules
+
+# Secrets
+# (VERY IMPORTANT: Never commit your .env file)
+.env
+/backend/.env
+
+# Vite / Build files
+/frontend/dist
+.vite
+
+# Log files
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
